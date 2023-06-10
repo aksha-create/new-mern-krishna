@@ -1,0 +1,113 @@
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  
+  
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .class-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .class-card {
+    width: calc(33.33% - 20px);
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .class-card h3 {
+    margin-top: 0;
+  }
+  
+  .class-card:hover {
+    background-color: #f0f2f5; /* Light gray */
+  }
+  
+  .class-card.active {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+  }
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-check p {
+    margin-right: 10px;
+  }
+  
+  .form-check-inline {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .form-check-inline label {
+    margin-bottom: 0;
+  }
+  
+  .btn-primary {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2d4373; /* Darker shade of Facebook blue */
+  }
+  
+  footer {
+    background-color: #3b5998;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }

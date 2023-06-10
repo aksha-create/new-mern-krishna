@@ -1,15 +1,27 @@
 import React from 'react';
+import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import IndexLogin from './IndexLogin';
+import './IndexLogin.css';
+import './AdminPage.css';
+import AdminPage from './AdminPage';
+import CandidateLogin from './CandidateLogin';
 import reportWebVitals from './reportWebVitals';
+import SuperAdmin from './SuperAdmin';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <IndexLogin />
+    {/* <AdminPage /> */}
+    {/* <SuperAdmin /> */}
+    {/* <CandidateLogin /> */}
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
