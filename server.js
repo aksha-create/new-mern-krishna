@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 // Connect to MongoDB database
 mongoose
-  .connect('mongodb+srv://krishnaias:CXZt2fTDRclLVn4F@cluster0.dfjvgqx.mongodb.net/?retryWrites=true&w=majority', {
+  .connect('mongodb+srv://krishnaias:@cluster0.dfjvgqx.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
